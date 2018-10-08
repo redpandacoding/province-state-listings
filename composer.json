@@ -1,0 +1,17 @@
+{
+    "name": "redpandacoding/provinces-state-listings",
+    "description": "A PHP array listing of United States states and Canada Provinces. US will include the Territories and DC in its listing. You can also request the array with out them by calling getStates() instead of getAll()",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordan Wamser",
+            "email": "jwamser@redpandacoding.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RedPandaCoding\\": "src/"
+        }
+    }
+}
